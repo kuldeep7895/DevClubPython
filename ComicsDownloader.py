@@ -73,7 +73,7 @@ def download(month, year, writer):
             myfile = open(year+"\\"+month+"\\"+date+"-"+writer+".png",'wb')
             newreq3 = requests.get(newurl3)
             myfile.write(newreq3.content)
-            print("i ham ")
+            
 
 # downloads the content
 monthjoin={"january":1,"february":2,"march":3,"april":4,"may":5,"june":6,"july":7,"august":8,"september":9,"october":10,"november":11,"december":12}
